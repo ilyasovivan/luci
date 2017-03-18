@@ -55,16 +55,16 @@ msgid "15 Minute Load:"
 msgstr "Загрузка за 15 минут:"
 
 msgid "4-character hexadecimal ID"
-msgstr ""
+msgstr "4-значный шестнадцатеричный ID"
 
 msgid "464XLAT (CLAT)"
-msgstr ""
+msgstr "464XLAT (CLAT)"
 
 msgid "5 Minute Load:"
 msgstr "Загрузка за 5 минут:"
 
 msgid "6-octet identifier as a hex string - no colons"
-msgstr ""
+msgstr "Шестеричный идентификатор в виде шестнадцатеричной hex-строки - без двоеточий"
 
 msgid "802.11r Fast Transition"
 msgstr ""
@@ -565,12 +565,14 @@ msgid ""
 "Build/distribution specific feed definitions. This file will NOT be "
 "preserved in any sysupgrade."
 msgstr ""
+"Определенные каналы распределения сборок/пакетов. Этот файл НЕ может быть "
+"сохранен в sysupgrade."
 
 msgid "Buttons"
 msgstr "Кнопки"
 
 msgid "CA certificate; if empty it will be saved after the first connection."
-msgstr ""
+msgstr "Сертификат ЦС; если отсутствует, то будет сохранен после первого подключения."
 
 msgid "CPU usage (%)"
 msgstr "Загрузка ЦП (%)"
@@ -579,7 +581,7 @@ msgid "Cancel"
 msgstr "Отменить"
 
 msgid "Category"
-msgstr ""
+msgstr "Категория"
 
 msgid "Chain"
 msgstr "Цепочка"
@@ -600,10 +602,10 @@ msgid "Check"
 msgstr "Проверить"
 
 msgid "Check fileystems before mount"
-msgstr ""
+msgstr "Проверять файловую систему перед монтированием"
 
 msgid "Check this option to delete the existing networks from this radio."
-msgstr ""
+msgstr "Включите эту опцию, чтобы удалить существующие сети из этого беспроводного подключения."
 
 msgid "Checksum"
 msgstr "Контрольная сумма"
@@ -630,7 +632,7 @@ msgid "Cipher"
 msgstr "Шифрование"
 
 msgid "Cisco UDP encapsulation"
-msgstr ""
+msgstr "Cisco UDP инкапсуляция"
 
 msgid ""
 "Click \"Generate archive\" to download a tar archive of the current "
@@ -688,7 +690,7 @@ msgid "Connection Limit"
 msgstr "Ограничение соединений"
 
 msgid "Connection to server fails when TLS cannot be used"
-msgstr ""
+msgstr "Невозможно подключиться к серверу, если не используется TLS"
 
 msgid "Connections"
 msgstr "Соединения"
@@ -724,15 +726,17 @@ msgid "Custom Interface"
 msgstr "Пользовательский интерфейс"
 
 msgid "Custom delegated IPv6-prefix"
-msgstr ""
+msgstr "Пользовательский делегированный IPv6-префикс"
 
 msgid ""
 "Custom feed definitions, e.g. private feeds. This file can be preserved in a "
 "sysupgrade."
 msgstr ""
+"Пользовательские каналы пакетов, например приватные каналы. Этот файл может быть "
+"сохранен в sysupgrade."
 
 msgid "Custom feeds"
-msgstr ""
+msgstr "Пользовательские каналы распределения пакетов"
 
 msgid ""
 "Customizes the behaviour of the device <abbr title=\"Light Emitting Diode"
@@ -759,13 +763,13 @@ msgid "DHCPv6 Leases"
 msgstr "Аренды DHCPv6"
 
 msgid "DHCPv6 client"
-msgstr ""
+msgstr "DHCPv6-клиент"
 
 msgid "DHCPv6-Mode"
-msgstr ""
+msgstr "DHCPv6-режим"
 
 msgid "DHCPv6-Service"
-msgstr ""
+msgstr "DHCPv6-служба"
 
 msgid "DNS"
 msgstr "DNS"
@@ -774,7 +778,7 @@ msgid "DNS forwardings"
 msgstr "Перенаправление запросов DNS"
 
 msgid "DNS-Label / FQDN"
-msgstr ""
+msgstr "DNS-метка / FQDN"
 
 msgid "DNSSEC"
 msgstr ""
@@ -792,7 +796,7 @@ msgid "DSL"
 msgstr ""
 
 msgid "DSL Status"
-msgstr ""
+msgstr "Статус DSL"
 
 msgid "DSL line mode"
 msgstr ""
@@ -801,7 +805,7 @@ msgid "DUID"
 msgstr "DUID"
 
 msgid "Data Rate"
-msgstr ""
+msgstr "Скорость передачи данных"
 
 msgid "Debug"
 msgstr "Отладка"
@@ -816,7 +820,7 @@ msgid "Default is stateless + stateful"
 msgstr ""
 
 msgid "Default route"
-msgstr ""
+msgstr "Маршрут по умолчанию"
 
 msgid "Default state"
 msgstr "Начальное состояние"
@@ -855,10 +859,10 @@ msgid "Device Configuration"
 msgstr "Конфигурация устройства"
 
 msgid "Device is rebooting..."
-msgstr ""
+msgstr "Устройство перезагружается..."
 
 msgid "Device unreachable"
-msgstr ""
+msgstr "Устройство недоступно"
 
 msgid "Diagnostics"
 msgstr "Диагностика"
@@ -883,13 +887,13 @@ msgid "Disable DNS setup"
 msgstr "Отключить настройку DNS"
 
 msgid "Disable Encryption"
-msgstr ""
+msgstr "Отключить шифрование"
 
 msgid "Disabled"
 msgstr "Отключено"
 
 msgid "Disabled (default)"
-msgstr ""
+msgstr "Отключено (по умолчанию)"
 
 msgid "Discard upstream RFC1918 responses"
 msgstr "Отбрасывать ответы RFC1918"
@@ -904,7 +908,7 @@ msgid "Distance to farthest network member in meters."
 msgstr "Расстояние до самого удалённого сетевого узла в метрах."
 
 msgid "Distribution feeds"
-msgstr ""
+msgstr "Каналы распределения пакетов"
 
 msgid "Diversity"
 msgstr "Разновидность антенн"
@@ -938,7 +942,7 @@ msgid "Domain whitelist"
 msgstr "Белый список доменов"
 
 msgid "Don't Fragment"
-msgstr ""
+msgstr "Не фрагментировать"
 
 msgid ""
 "Don't forward <abbr title=\"Domain Name System\">DNS</abbr>-Requests without "
@@ -1181,7 +1185,7 @@ msgid "Firewall Status"
 msgstr "Статус межсетевого экрана"
 
 msgid "Firmware File"
-msgstr ""
+msgstr "Файл прошивки"
 
 msgid "Firmware Version"
 msgstr "Версия прошивки"
@@ -1274,10 +1278,10 @@ msgid "General Setup"
 msgstr "Основные настройки"
 
 msgid "General options for opkg"
-msgstr ""
+msgstr "Основные настройки opkg"
 
 msgid "Generate Config"
-msgstr ""
+msgstr "Создать файл настроек"
 
 msgid "Generate archive"
 msgstr "Создать архив"
@@ -1288,11 +1292,14 @@ msgstr "Беспроводной 802.11%s контроллер"
 msgid "Given password confirmation did not match, password not changed!"
 msgstr "Введённые пароли не совпадают, пароль не изменён!"
 
+msgid "Global Options"
+msgstr "Основные настройки"
+
 msgid "Global Settings"
-msgstr ""
+msgstr "Основные настройки"
 
 msgid "Global network options"
-msgstr ""
+msgstr "Общие настройки сети"
 
 msgid "Go to password configuration..."
 msgstr "Перейти к настройке пароля..."
@@ -1301,19 +1308,19 @@ msgid "Go to relevant configuration page"
 msgstr "Перейти к странице конфигурации"
 
 msgid "Group Password"
-msgstr ""
+msgstr "Пароль группы"
 
 msgid "Guest"
-msgstr ""
+msgstr "Гость"
 
 msgid "HE.net password"
 msgstr "Пароль HE.net"
 
 msgid "HE.net username"
-msgstr ""
+msgstr "Пользователь HE.net"
 
 msgid "HT mode (802.11n)"
-msgstr ""
+msgstr "HT режим (802.11n)"
 
 msgid "Handler"
 msgstr "Обработчик"
@@ -1433,10 +1440,10 @@ msgid "IPv6 Neighbours"
 msgstr ""
 
 msgid "IPv6 Settings"
-msgstr ""
+msgstr "Настройки IPv6"
 
 msgid "IPv6 ULA-Prefix"
-msgstr ""
+msgstr "IPv6 ULA-префикс"
 
 msgid "IPv6 WAN Status"
 msgstr "Статус IPv6 WAN"
@@ -1957,7 +1964,7 @@ msgid "Mode"
 msgstr "Режим"
 
 msgid "Model"
-msgstr ""
+msgstr "Модель"
 
 msgid "Modem device"
 msgstr "Модем"
@@ -2184,7 +2191,7 @@ msgid "One or more fields contain invalid values!"
 msgstr "Одно или несколько полей содержат недопустимые значения!"
 
 msgid "One or more invalid/required values on tab"
-msgstr ""
+msgstr "Одно или несколько неверных значений/обязательных значенений во вкладке"
 
 msgid "One or more required fields have no value!"
 msgstr "Одно или несколько обязательных полей не заполнены!"
@@ -2196,7 +2203,7 @@ msgid "OpenConnect (CISCO AnyConnect)"
 msgstr ""
 
 msgid "Operating frequency"
-msgstr ""
+msgstr "Рабочая частота"
 
 msgid "Option changed"
 msgstr "Опция изменена"
@@ -2273,7 +2280,7 @@ msgid "Override TOS"
 msgstr ""
 
 msgid "Override TTL"
-msgstr ""
+msgstr "Перезапись TTL"
 
 msgid "Override default interface name"
 msgstr ""
@@ -3154,7 +3161,7 @@ msgstr ""
 "<code>_</code>"
 
 msgid "The configuration file could not be loaded due to the following error:"
-msgstr ""
+msgstr "Файл настроек не может быть загружен из-за следующих ошибок:"
 
 msgid ""
 "The device file of the memory or partition (<abbr title=\"for example\">e.g."
@@ -3474,7 +3481,7 @@ msgid "Unmanaged"
 msgstr "Неуправляемый"
 
 msgid "Unmount"
-msgstr ""
+msgstr "Размонтировать"
 
 msgid "Unsaved Changes"
 msgstr "Непринятые изменения"
@@ -3662,7 +3669,7 @@ msgid "Waiting for command to complete..."
 msgstr "Ожидание завершения выполнения команды..."
 
 msgid "Waiting for device..."
-msgstr ""
+msgstr "Ожидание включения устройства..."
 
 msgid "Warning"
 msgstr "Внимание"
@@ -3719,7 +3726,7 @@ msgid "Write received DNS requests to syslog"
 msgstr "Записывать полученные DNS-запросы в системный журнал"
 
 msgid "Write system log to file"
-msgstr ""
+msgstr "Записать системные логи в файл"
 
 msgid ""
 "You can enable or disable installed init scripts here. Changes will applied "
@@ -3914,8 +3921,8 @@ msgstr "« Назад"
 #~ msgid "Atheros 802.11%s Wireless Controller"
 #~ msgstr "Беспроводной 802.11%s контроллер Atheros"
 
-#~ msgid "Background Scan"
-#~ msgstr "Фоновое сканирование"
+msgid "Background Scan"
+msgstr "Фоновое сканирование"
 
 #~ msgid "Compression"
 #~ msgstr "Сжатие"
@@ -3960,8 +3967,8 @@ msgstr "« Назад"
 #~ msgstr ""
 #~ "Если вы не выберите эту опцию, то будет создана дополнительная сеть."
 
-#~ msgid "Join Network: Settings"
-#~ msgstr "Подключение к сети: настройки"
+msgid "Join Network: Settings"
+msgstr "Подключение к сети: настройки"
 
 #~ msgid "CPU"
 #~ msgstr "ЦП"
